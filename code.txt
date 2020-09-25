@@ -1,0 +1,192 @@
+/* Hi guys creator coder here. In this video i am going to show Covid-19 
+positive or negative in C programming With source code .
+*/
+ 
+/*
+So guys please don't forget to like the video, subscribe the channel and if
+you guys did 1000 subscribers so i will make PUBG MOBILE in c language with source code */ 
+
+
+// so lets begin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include <stdio.h>
+
+
+int main()
+{
+    char patient[90];
+    char Father[90];
+    char Mother[90];
+    char gender[80];
+    int phoneno;
+    int age;
+
+    printf("***************************************\n");
+    printf("                WELCOME\n");
+    printf("               TO COVID-19\n");
+    printf("                  TEST\n");
+    printf("***************************************\n");
+    printf("This C program is made by Creator coder\n\n");
+
+    printf("Please enter your personal information required\n\n");
+
+    printf("Name of patient:");
+    scanf("%s", &patient);
+
+    printf("\nName of father:");
+    scanf("%s", &Father);
+
+    printf("\nName of mother:");
+    scanf("%s", &Mother);
+
+    printf("\nPhone number:");
+    scanf("%d", &phoneno);
+
+    printf("\nGender:");
+    scanf("%s", &gender);
+    
+    printf("\nAge:");
+    scanf("%d", &age);
+
+    system("cls");
+
+
+    int fever;
+    int dry_cough;
+    int tiredness;
+    int aches_pains,sore_throat,diarrhoea,conjunctivitis,headache;
+    
+    printf("****************************\n");
+    printf("Covid-19\n");
+    printf("Test-1\n");
+    printf("****************************\n");
+
+    printf("\nLet's start the test\n\n");
+
+    printf("If you are agree with questions press 1\nif you are disagree so press 2\n\n");
+
+    printf("Test-1 Most common symptoms of corona");
+    
+    printf("\n\nDoes the patient have fever:");
+    scanf("%d", &fever);
+
+    if(fever == 1)
+    {
+        printf("\n1 symptom of corona accured");
+    }
+    else
+    {
+        printf("\nYou don't have corona till now");
+    }
+    
+
+   
+
+    printf("\n\nDoes patient have dry cough:");
+    scanf("%d", &dry_cough);
+    
+    if(dry_cough == 1)
+    {
+        printf("\n2 symptom of corona accured");
+    }
+    else
+    {
+        printf("\nYou don't have corona till now");
+    }
+
+
+
+    printf("\nDoes patient feel tiredness everytime:");
+    scanf("%d", &tiredness);
+    
+    if(tiredness == 1)
+    {
+        printf("\n3 symptom of corona accured");
+    }
+    else
+    {
+        printf("\nYou don't have corona till now");
+    }
+
+
+    system("cls");
+
+    int difficulty_breathing_or_shortness_of_breath;
+    int chest_pain_or_pressure;
+    int loss_of_speech_or_movement;
+
+    printf("****************************\n");
+    printf("Covid-19\n");
+    printf("Test-2\n");
+    printf("****************************\n");
+
+
+    printf("Test-2 Serious symptoms");
+
+    printf("\n\nDoes the patient feel difficulty breathing or shortness of breath");
+    scanf("%d",difficulty_breathing_or_shortness_of_breath);
+
+    if(difficulty_breathing_or_shortness_of_breath == 1)
+    {
+        printf("\n1 symptom of corona accured");
+    }
+    else
+    {
+        printf("\n1 You don't have corona till now");
+    }
+
+    printf("\nDoes the patient feel chest pain or pressure");
+    scanf("%d",&chest_pain_or_pressure);
+
+    if(chest_pain_or_pressure == 1)
+    {
+        printf("\n2 symptom of corona accured");
+    }
+    else
+    {
+        printf("\n2 You don't have corona till now");
+    }
+
+    printf("\nDoes patient feel to loss of speech or movement");
+    scanf("%d", &loss_of_speech_or_movement);
+
+    if(loss_of_speech_or_movement == 1)
+    {
+        int ratings;
+        printf("\nThese all symptoms tells that you have 'Corona'");
+        printf("\nThe patient report is positive\n\n");
+        printf("\n\nPlease subscribe to Creator coder channel and like the video and share this video to everyone and turn on the bell icon\nshare your rating please");
+        printf("\nHow was you experienced (rating) ");
+        scanf("%d", &ratings);
+        printf("Thanks for your ratings\2\2\2");
+    }
+    if(loss_of_speech_or_movement == 2)
+    {
+    int ratings;
+    printf("\2\2\2 This all symptoms tells that you don't have Corona");
+    printf("\n\nPlease subscribe to Creator coder channel and like the video and share this video to everyone and turn on the bell icon\nshare your rating please");
+    printf("\nHow was you experienced (rating) ");
+    scanf("%d", &ratings);
+
+    printf("Thanks for your ratings\2\2\2");
+    }
+
+    return 0;
+}
+
+/* So guys i hope you liked the video please subscribe the channel and share also Bye Bye*/
